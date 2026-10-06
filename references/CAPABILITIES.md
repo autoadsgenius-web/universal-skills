@@ -1,6 +1,6 @@
 # Habilidades por área
 
-Esta lista distribui todos os 444 registros em áreas. Há sobreposições no inventário original. `bundled` contém um guia; `adapter` depende da habilidade ou plugin original e não fornece suas ferramentas.
+Esta lista distribui todos os 458 registros em áreas. Há sobreposições no inventário original. `bundled` contém um guia; `adapter` depende da habilidade ou plugin original e não fornece suas ferramentas.
 
 ## Sites e sistemas web
 
@@ -502,3 +502,24 @@ Esta lista distribui todos os 444 registros em áreas. Há sobreposições no in
 | [work-visualize:visualize](modules/installed-327-work-visualize-visualize/GUIDE.md) | adapter | Create visualizations and interactive tools directly in conversation. Proactively use to show how something works; explore 'what happens when', 'what changes', or 'help me understand'; compare or inspect; create simulations, maps, charts, graphs, and mockups. Use standard tools for static scientific figures. |
 | [writing-blocks:writing-blocks](modules/installed-328-writing-blocks-writing-blocks/GUIDE.md) | adapter | Present complete drafts of requested text in a writing block, including emails, messages, social posts, bios, blurbs, statements, and individual paragraphs. Prefer creating or editing a file for standalone documents or long-form content instead of a writing block. |
 
+
+## Novos guias próprios de conteúdo e vídeo
+
+| Função | Habilidades relacionadas | Guia incluído |
+|---|---|---|
+| Escolher nicho, público e temas | `audience-research`, `content-pillars`, `idea-generation-and-ideation`, `social-strategy` | [nicho-publico](modules/content-nicho-publico/GUIDE.md) |
+| Planejar séries e produção em lotes | `content-calendar`, `batch-content-plan` | [series-calendario](modules/content-series-calendario/GUIDE.md) |
+| Criar roteiros curtos e storyboard | `short-form-video-script`, `reels-script`, `tiktok-script`, `scripting-and-storyboarding`, `hook-writer` | [roteiro-curto](modules/content-roteiro-curto/GUIDE.md) |
+| Ajustar escrita e identidade da voz | `writing-style-and-tone`, `voice-builder` | [voz-escrita](modules/content-voz-escrita/GUIDE.md) |
+| Preparar e produzir narração por IA | `ai-voiceover` | [narracao](modules/content-narracao/GUIDE.md) |
+| Produzir vídeo narrado com várias cenas | `Higgsfield:faceless-video` | [faceless](modules/content-faceless/GUIDE.md) |
+| Criar cenas com movimento | `PixVerse:pixverse-create-video`, `kling`, `luma`, `runway`, `veo-3` | [cenas-movimento](modules/content-cenas-movimento/GUIDE.md) |
+| Criar ou corrigir legendas | `remotion-legendas`, `captions-and-clipping`, `PixVerse:pixverse-captions` | [legendas](modules/content-legendas/GUIDE.md) |
+| Montar e editar o vídeo | `remotion-criar-video`, `remotion-cenas-animacoes`, `remotion-audio-video`, `PixVerse:pixverse-video-editing` | [montagem](modules/content-montagem/GUIDE.md) |
+| Visualizar e exportar | `remotion-visualizar-video`, `remotion-exportar-video` | [exportacao](modules/content-exportacao/GUIDE.md) |
+| Preparar publicação no YouTube | `youtube-publishing-and-metadata` | [youtube](modules/content-youtube/GUIDE.md) |
+| Preparar publicação no TikTok | `tiktok-video-publishing` | [tiktok](modules/content-tiktok/GUIDE.md) |
+| Agendar e acompanhar publicações | `scheduling-and-queue` | [agendamento](modules/content-agendamento/GUIDE.md) |
+| Conferir formato e qualidade | `platform-specs-and-validation`, `analisar-videos` | [qualidade-video](modules/content-qualidade-video/GUIDE.md) |
+
+Ver [fluxo integrado](CONTENT_VIDEO.md).

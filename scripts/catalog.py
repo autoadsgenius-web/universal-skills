@@ -1,6 +1,6 @@
 import json, pathlib, sys
 root=pathlib.Path(__file__).resolve().parents[1]
-items=json.loads((root/'references/catalog.json').read_text())
+items=json.loads((root/'references/catalog.json').read_text(encoding='utf-8'))
 terms=[s.casefold() for s in sys.argv[1:]]
 for item in items:
     hay=(item['name']+' '+item['description']).casefold()

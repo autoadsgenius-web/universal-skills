@@ -17,3 +17,7 @@ A licença MIT da raiz cobre somente a camada original de coordenação, os adap
 Os avisos confirmados estão nas respectivas pastas de módulos. Os módulos WordPress incluem o texto integral da GPL v2 e permanecem sob GPL-2.0-or-later; os arquivos-fonte distribuídos estão disponíveis na própria pasta de módulos. As alterações de empacotamento renomeiam SKILL.md para GUIDE.md; os guias de terceiros não foram reescritos. Vercel declara MIT no README da fonte, sem arquivo LICENSE encontrado na consulta de 2026-10-06; a declaração foi registrada em cada módulo.
 
 Os 329 adaptadores são registros de dependência, sem instruções originais incorporadas. Sua presença não comprova instalação ou disponibilidade pública da habilidade correspondente.
+
+## Guias próprios de conteúdo e vídeo
+
+Os 14 guias `content-*` são instruções originais desta camada, sob a licença da coordenação. Nomes de skills e serviços são referências de compatibilidade funcional; não representam redistribuição de guias privados, ferramentas, credenciais ou endosso pelos provedores.

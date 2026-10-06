@@ -4444,5 +4444,145 @@
     "guide": "references/modules/installed-328-writing-blocks-writing-blocks/GUIDE.md",
     "origin": "integration-registry",
     "area": "Ferramentas de apoio"
+  },
+  {
+    "id": "content-nicho-publico",
+    "name": "content-nicho-publico",
+    "description": "Escolher nicho, público e temas. Funções: audience-research content-pillars idea-generation-and-ideation social-strategy",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-nicho-publico/GUIDE.md",
+    "origin": "original",
+    "area": "Escrita e marketing"
+  },
+  {
+    "id": "content-series-calendario",
+    "name": "content-series-calendario",
+    "description": "Planejar séries e produção em lotes. Funções: content-calendar batch-content-plan",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-series-calendario/GUIDE.md",
+    "origin": "original",
+    "area": "Escrita e marketing"
+  },
+  {
+    "id": "content-roteiro-curto",
+    "name": "content-roteiro-curto",
+    "description": "Criar roteiros curtos e storyboard. Funções: short-form-video-script reels-script tiktok-script scripting-and-storyboarding hook-writer",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-roteiro-curto/GUIDE.md",
+    "origin": "original",
+    "area": "Escrita e marketing"
+  },
+  {
+    "id": "content-voz-escrita",
+    "name": "content-voz-escrita",
+    "description": "Ajustar escrita e identidade da voz. Funções: writing-style-and-tone voice-builder",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-voz-escrita/GUIDE.md",
+    "origin": "original",
+    "area": "Escrita e marketing"
+  },
+  {
+    "id": "content-narracao",
+    "name": "content-narracao",
+    "description": "Preparar e produzir narração por IA. Funções: ai-voiceover",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-narracao/GUIDE.md",
+    "origin": "original",
+    "area": "Mídia e animação"
+  },
+  {
+    "id": "content-faceless",
+    "name": "content-faceless",
+    "description": "Produzir vídeo narrado com várias cenas. Funções: Higgsfield:faceless-video",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-faceless/GUIDE.md",
+    "origin": "original",
+    "area": "Mídia e animação"
+  },
+  {
+    "id": "content-cenas-movimento",
+    "name": "content-cenas-movimento",
+    "description": "Criar cenas com movimento. Funções: PixVerse:pixverse-create-video kling luma runway veo-3",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-cenas-movimento/GUIDE.md",
+    "origin": "original",
+    "area": "Mídia e animação"
+  },
+  {
+    "id": "content-legendas",
+    "name": "content-legendas",
+    "description": "Criar ou corrigir legendas. Funções: remotion-legendas captions-and-clipping PixVerse:pixverse-captions",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-legendas/GUIDE.md",
+    "origin": "original",
+    "area": "Mídia e animação"
+  },
+  {
+    "id": "content-montagem",
+    "name": "content-montagem",
+    "description": "Montar e editar o vídeo. Funções: remotion-criar-video remotion-cenas-animacoes remotion-audio-video PixVerse:pixverse-video-editing",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-montagem/GUIDE.md",
+    "origin": "original",
+    "area": "Mídia e animação"
+  },
+  {
+    "id": "content-exportacao",
+    "name": "content-exportacao",
+    "description": "Visualizar e exportar. Funções: remotion-visualizar-video remotion-exportar-video",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-exportacao/GUIDE.md",
+    "origin": "original",
+    "area": "Mídia e animação"
+  },
+  {
+    "id": "content-youtube",
+    "name": "content-youtube",
+    "description": "Preparar publicação no YouTube. Funções: youtube-publishing-and-metadata",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-youtube/GUIDE.md",
+    "origin": "original",
+    "area": "Escrita e marketing"
+  },
+  {
+    "id": "content-tiktok",
+    "name": "content-tiktok",
+    "description": "Preparar publicação no TikTok. Funções: tiktok-video-publishing",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-tiktok/GUIDE.md",
+    "origin": "original",
+    "area": "Escrita e marketing"
+  },
+  {
+    "id": "content-agendamento",
+    "name": "content-agendamento",
+    "description": "Agendar e acompanhar publicações. Funções: scheduling-and-queue",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-agendamento/GUIDE.md",
+    "origin": "original",
+    "area": "Escrita e marketing"
+  },
+  {
+    "id": "content-qualidade-video",
+    "name": "content-qualidade-video",
+    "description": "Conferir formato e qualidade. Funções: platform-specs-and-validation analisar-videos",
+    "source": "https://github.com/autoadsgenius-web/universal-skills",
+    "mode": "bundled",
+    "guide": "references/modules/content-qualidade-video/GUIDE.md",
+    "origin": "original",
+    "area": "Mídia e animação"
   }
 ]

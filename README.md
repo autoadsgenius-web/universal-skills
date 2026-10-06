@@ -11,8 +11,8 @@
 | Programas e serviços | Python, TypeScript, Java, C#, Go, Rust, APIs e bancos |
 | Jogos e extensões | Unity, jogos, extensões de navegador e aplicativos desktop |
 | Qualidade | Arquitetura, planejamento, investigação de erros, revisão e testes |
-| Escrita e marketing | Encaminhamento para roteiros, revisão, posts, pesquisa e calendário |
-| Mídia | Encaminhamento para habilidades de imagens, áudio, vídeo e animação |
+| Escrita e marketing | Guias próprios de público, roteiros, voz e calendário; integrações adicionais |
+| Mídia | Fluxo integrado de narração, cenas animadas, legendas, montagem e publicação |
 
 ## O que pode fazer em cada área
 
@@ -78,7 +78,7 @@ Há guias de arquitetura, organização de monorepos, revisão de aplicações c
 
 ### Escrita e marketing
 
-Nesta edição pública, essa área é um **catálogo de integrações**. Ela identifica habilidades de humanização, voz, tom, roteiros, legendas, carrosséis, posts, narrativas, pesquisa de público e planejamento de conteúdo. Para usar as instruções especializadas originais, a habilidade correspondente precisa estar instalada.
+Esta edição inclui guias próprios para pesquisa de nicho e público, calendário e lotes, roteiro curto e storyboard, voz da escrita, metadados e agendamento. As demais funções desta área permanecem em um **catálogo de integrações**. Ela identifica habilidades de humanização, voz, tom, roteiros, legendas, carrosséis, posts, narrativas, pesquisa de público e planejamento de conteúdo. Os novos guias funcionam dentro da Universal Skills. Para usar instruções originais de outras habilidades do catálogo, elas precisam estar disponíveis.
 
 O catálogo também inclui pesquisa de concorrentes, calendário, campanhas, objetivos, análise de métricas, reaproveitamento de conteúdo e estratégias para Instagram, Facebook, YouTube, TikTok, LinkedIn, Pinterest e outras redes.
 
@@ -90,7 +90,7 @@ O catálogo também inclui pesquisa de concorrentes, calendário, campanhas, obj
 
 ### Mídia e animação
 
-Nesta edição pública, essa área também funciona por **integrações**. O catálogo identifica habilidades de imagens, edição, narração, música, legendas, cortes, análise de vídeos, animação e composição de cenas. Inclui registros de Remotion, anime e ferramentas de vídeo e design.
+Esta edição inclui guias próprios para narração, produção com várias cenas, movimento, legendas, montagem, pré-visualização, exportação e conferência audiovisual. A execução da geração e publicação funciona por **ferramentas externas**. O catálogo identifica habilidades de imagens, edição, narração, música, legendas, cortes, análise de vídeos, animação e composição de cenas. Inclui registros de Remotion, anime e ferramentas de vídeo e design.
 
 Com as dependências presentes, pode coordenar briefing, personagens, referências, cenas, prompts, geração, montagem, legendas e exportação. Anime exige geração e continuidade de personagens; vídeos não são produzidos apenas pela presença de um guia. Os registros de Canva, Runway, Kling, Luma, PixVerse e outros serviços não fornecem acesso a eles.
 
@@ -107,10 +107,11 @@ Para ver **cada registro distribuído por área**, consulte [CAPABILITIES.md](re
 ## O que vem no pacote
 
 - **115 módulos incorporados de desenvolvimento**, com guias e recursos disponíveis nas fontes originais.
+- **14 guias próprios de conteúdo e vídeo**, com procedimentos incluídos.
 - **329 registros de integração** das habilidades e plugins identificados no ambiente de origem.
 - Uma entrada `SKILL.md`, catálogo pesquisável e instalador Python.
 
-São **444 registros**, com sobreposições; não são 444 habilidades únicas. Um registro `bundled` contém o guia. Um registro `adapter` é uma dependência: **não contém as instruções originais nem instala o plugin**. As habilidades de escrita, marketing e mídia estão representadas por adaptadores nesta edição pública. Consulte o [catálogo completo](references/CATALOG.md).
+São **458 registros**, com sobreposições; não são 458 habilidades únicas. Um registro `bundled` contém o guia. Um registro `adapter` é uma dependência: **não contém as instruções originais nem instala o plugin**. Há 14 guias próprios de conteúdo e vídeo; as demais habilidades de escrita, marketing e mídia continuam representadas por adaptadores. Consulte o [catálogo completo](references/CATALOG.md).
 
 ## Requisitos
 
@@ -202,6 +203,39 @@ Inclua criação, edição e conclusão de tarefas e explique como testar.
 Também pode pedir: `Use universal-skills para revisar esta API Python.`
 
 Esta instalação é para Claude Code. Ela não habilita automaticamente a skill no site claude.ai, no Cowork ou em rotinas na nuvem; essas interfaces têm formas próprias de habilitar habilidades.
+
+## Produção de conteúdo e vídeo integrada
+
+Uma única skill coordena as 14 funções abaixo com guias próprios incluídos. Elas não precisam ser instaladas como novas skills. As habilidades relacionadas indicam a função coberta, não uma cópia de instruções privadas.
+
+| Função | Habilidades relacionadas | Guia incluído |
+|---|---|---|
+| Escolher nicho, público e temas | `audience-research`, `content-pillars`, `idea-generation-and-ideation`, `social-strategy` | [nicho-publico](references/modules/content-nicho-publico/GUIDE.md) |
+| Planejar séries e produção em lotes | `content-calendar`, `batch-content-plan` | [series-calendario](references/modules/content-series-calendario/GUIDE.md) |
+| Criar roteiros curtos e storyboard | `short-form-video-script`, `reels-script`, `tiktok-script`, `scripting-and-storyboarding`, `hook-writer` | [roteiro-curto](references/modules/content-roteiro-curto/GUIDE.md) |
+| Ajustar escrita e identidade da voz | `writing-style-and-tone`, `voice-builder` | [voz-escrita](references/modules/content-voz-escrita/GUIDE.md) |
+| Preparar e produzir narração por IA | `ai-voiceover` | [narracao](references/modules/content-narracao/GUIDE.md) |
+| Produzir vídeo narrado com várias cenas | `Higgsfield:faceless-video` | [faceless](references/modules/content-faceless/GUIDE.md) |
+| Criar cenas com movimento | `PixVerse:pixverse-create-video`, `kling`, `luma`, `runway`, `veo-3` | [cenas-movimento](references/modules/content-cenas-movimento/GUIDE.md) |
+| Criar ou corrigir legendas | `remotion-legendas`, `captions-and-clipping`, `PixVerse:pixverse-captions` | [legendas](references/modules/content-legendas/GUIDE.md) |
+| Montar e editar o vídeo | `remotion-criar-video`, `remotion-cenas-animacoes`, `remotion-audio-video`, `PixVerse:pixverse-video-editing` | [montagem](references/modules/content-montagem/GUIDE.md) |
+| Visualizar e exportar | `remotion-visualizar-video`, `remotion-exportar-video` | [exportacao](references/modules/content-exportacao/GUIDE.md) |
+| Preparar publicação no YouTube | `youtube-publishing-and-metadata` | [youtube](references/modules/content-youtube/GUIDE.md) |
+| Preparar publicação no TikTok | `tiktok-video-publishing` | [tiktok](references/modules/content-tiktok/GUIDE.md) |
+| Agendar e acompanhar publicações | `scheduling-and-queue` | [agendamento](references/modules/content-agendamento/GUIDE.md) |
+| Conferir formato e qualidade | `platform-specs-and-validation`, `analisar-videos` | [qualidade-video](references/modules/content-qualidade-video/GUIDE.md) |
+
+O fluxo vai de pesquisa e roteiro até vídeo final e publicação, conforme ferramentas e autorizações disponíveis. Consulte [o procedimento completo](references/CONTENT_VIDEO.md).
+
+**O que funciona sem plugins especializados:** planejamento, revisão da escrita, roteiros, storyboard, direção de narração, manifesto de cenas e metadados. Pesquisa atual exige acesso a fontes.
+
+**O que exige ferramentas:** sintetizar voz, gerar cenas animadas, renderizar arquivos e publicar. Prioriza plugins já conectados. Higgsfield/PixVerse podem executar produção; Remotion depende de ambiente de renderização. Metricool ou WoopSocial podem agendar quando houver suporte à rede e conta escolhidas.
+
+**Movimento real:** um pedido de personagem animado exige cenas com ação visível. Efeitos de zoom sobre imagens não são apresentados como essa entrega.
+
+**Automação diária:** este pacote não instala um serviço que funcione continuamente. É necessário um executor externo para criar vídeos novos diariamente, acompanhar falhas e publicar. Agendar vídeos prontos é uma função diferente.
+
+**Custos:** o pacote não fornece créditos, assinaturas nem contas. Usar uma skill gratuita não torna gratuito o serviço utilizado.
 
 ## Exemplos de conteúdo e mídia
 

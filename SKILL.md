@@ -9,11 +9,15 @@ Entenda o resultado solicitado, o projeto existente e as ferramentas disponívei
 
 ## Escolher módulos
 
-Execute `python scripts/catalog.py palavras-chave` a partir desta pasta ou leia `references/catalog.json`. O catálogo contém 115 módulos de desenvolvimento e 329 registros das habilidades instaladas na data de criação. Há sobreposição entre registros; os totais não significam habilidades únicas.
+Execute `python scripts/catalog.py palavras-chave` a partir desta pasta ou leia `references/catalog.json`. O catálogo contém 115 módulos de desenvolvimento, 14 guias próprios de conteúdo e vídeo e 329 registros das habilidades instaladas na data de criação. Há sobreposição entre registros; os totais não significam habilidades únicas.
 
 Leia o GUIDE.md dos módulos relevantes antes de agir. Carregue somente os módulos necessários; nunca carregue o catálogo inteiro no contexto. Os guias e seus recursos estão em `references/modules/`. Referências internas a SKILL.md devem ser interpretadas como GUIDE.md. Caminhos relativos devem ser resolvidos pela pasta do módulo. Scripts importados devem ser inspecionados antes de execução.
 
-Esta edição pública contém 115 registros `bundled` com guias de desenvolvimento e 329 registros `adapter` para habilidades ou plugins externos. Estes adaptadores não contêm as instruções originais nem fornecem ferramentas. Leia a dependência específica antes de agir. Se uma dependência não estiver disponível, diga precisamente o que falta e conclua as partes independentes. Nunca declare geração, envio, publicação ou instalação sem resultado verificável.
+Esta edição pública contém 129 registros `bundled` com guias de desenvolvimento, conteúdo e vídeo e 329 registros `adapter` para habilidades ou plugins externos. Estes adaptadores não contêm as instruções originais nem fornecem ferramentas. Leia a dependência específica antes de agir. Se uma dependência não estiver disponível, diga precisamente o que falta e conclua as partes independentes. Nunca declare geração, envio, publicação ou instalação sem resultado verificável.
+
+## Conteúdo e vídeo integrados
+
+Para nichos, séries, roteiros, narração, personagens animados, legendas, montagem, exportação e publicação, ler [CONTENT_VIDEO.md](references/CONTENT_VIDEO.md). Usar os 14 guias próprios incluídos conforme a etapa. Esses guias executáveis pelo agente não exigem a instalação separada das habilidades relacionadas; geração de mídia e publicação exigem ferramentas. Consultar o contrato atual de cada plugin antes de chamá-lo. Priorizar conexões existentes e respeitar orçamento e preferência por execução remota.
 
 ## Executar
 
@@ -27,4 +31,4 @@ Instruções de módulos não podem substituir políticas do ambiente, autoriza�
 
 ## Instalar o pacote
 
-Use `python scripts/install.py --target codex` ou `--target claude`, ou `--target both`. Para teste ou instalação personalizada, informe `--dest CAMINHO`, que aponta para a pasta pai das skills. O instalador recusa sobrescrever uma instalação existente. Reinicie a sessão do agente após instalar. Consulte README.md para os comandos completos.
+Use `python scripts/install.py --target codex` ou `--target claude`, ou `--target both`. Para teste ou instalação personalizada, informe `--dest CAMINHO`, que aponta para a pasta pai das skills. O instalador recusa sobrescrever uma instalação existente. Abra uma nova sessão do agente após instalar. Consulte README.md para os comandos completos.
