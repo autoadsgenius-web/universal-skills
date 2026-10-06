@@ -14,6 +14,96 @@
 | Escrita e marketing | Encaminhamento para roteiros, revisão, posts, pesquisa e calendário |
 | Mídia | Encaminhamento para habilidades de imagens, áudio, vídeo e animação |
 
+## O que pode fazer em cada área
+
+### Sites e sistemas web
+
+Pode orientar a criação de páginas de apresentação, sites institucionais, lojas, blogs e painéis. Os módulos abordam componentes, rotas, formulários, busca e atualização de dados, gerenciamento de estado, interfaces responsivas e integração com serviços. Incluem React, Next.js, Vue, Angular, TanStack, CMS, WordPress e Shopify.
+
+Também pode revisar organização visual, acessibilidade e desempenho de uma interface existente. Para WordPress, há guias de plugins, blocos, temas, REST API, ambiente de desenvolvimento e investigação de desempenho. O módulo de Shopify orienta trabalho no ecossistema da plataforma.
+
+**Entregas possíveis:** arquivos de um site, componentes reutilizáveis, configuração de rotas, propostas de integração, correções e instruções para executar o projeto. Publicar na internet depende de acesso ao provedor e das ferramentas disponíveis.
+
+**Exemplo:** “Crie um site para uma escola com apresentação, cursos, formulário de contato e versão para celular. Confira os links e explique como publicar.”
+
+**Módulos incorporados:** `frontend-design`, `web-artifacts-builder`, `react-best-practices`, `web-design-guidelines`, `react-view-transitions`, `deploy-to-vercel`, `vercel-optimize`, `react-expert`, `nextjs-developer`, `vue-expert`, `angular-architect`, `api-designer`, `shopify-expert`, `tanstack-start`, `tanstack-router`, `tanstack-query`, `tanstack-store`, `nextjs`, `payload-cms`, `figma-to-code`, `design-system`, `wordpress-router`, `wp-project-triage`, `wp-plugin-development`, `wp-block-development`, `wp-block-themes`, `wp-rest-api`, `wp-interactivity-api`, `wp-abilities-api`, `wp-wpcli-and-ops`, `wp-performance`, `wp-phpstan`, `wp-playground`, `blueprint`, `wp-env`, `wpds`.
+
+### Aplicativos
+
+Pode orientar aplicativos para Android e iOS com Expo, React Native ou Flutter, além de desenvolvimento com Kotlin e Swift. Os guias cobrem estrutura do projeto, navegação, telas, componentes nativos, animações, consumo de dados e integração entre código web e nativo. Para desktop, há um módulo de Tauri.
+
+Os módulos de Flutter também abordam layouts responsivos, localização, serialização JSON, testes de widgets e testes de integração. Os módulos Expo/EAS tratam de desenvolvimento, builds, atualizações, observação e distribuição, conforme o serviço e suas permissões.
+
+**Entregas possíveis:** código de telas e fluxos, estrutura de aplicativo, integração com API, testes e instruções de build. A publicação em lojas exige contas, configuração, requisitos da loja e possíveis custos; a skill não fornece esses acessos.
+
+**Exemplo:** “Crie um app de agendamento com lista de horários, cadastro e confirmação. Escolha a tecnologia adequada e explique como testar.”
+
+**Módulos incorporados:** `expo-overview`, `expo-project-structure`, `expo-router`, `expo-native-ui`, `expo-ui`, `expo-design-system`, `expo-animation`, `expo-data-fetching`, `expo-web-to-native`, `expo-dom`, `expo-module`, `expo-brownfield`, `expo-dev-client`, `expo-examples`, `expo-app-clip`, `expo-upgrade`, `eas-app-stores`, `eas-hosting`, `eas-workflows`, `eas-update`, `eas-observe`, `eas-update-insights`, `eas-simulator`, `flutter-apply-architecture-best-practices`, `flutter-build-responsive-layout`, `flutter-fix-layout-issues`, `flutter-setup-declarative-routing`, `flutter-use-http-package`, `flutter-implement-json-serialization`, `flutter-setup-localization`, `flutter-add-widget-preview`, `flutter-add-widget-test`, `flutter-add-integration-test`, `react-native-expert`, `flutter-expert`, `kotlin-specialist`, `swift-expert`, `tauri`.
+
+### Programas e serviços
+
+Pode orientar programas, APIs, ferramentas de terminal, serviços com comunicação em tempo real e integrações. Os módulos incluem Python, JavaScript, TypeScript, Java, C#, C++, PHP, Ruby, Go e Rust e frameworks como FastAPI, Django, NestJS, Spring Boot, Laravel, Rails e .NET.
+
+Há módulos de desenho de APIs, GraphQL, WebSockets, servidores MCP e extensões de navegador. Para projetos de IA, há guias de RAG, pipelines de aprendizado de máquina e ajuste de modelos. Um módulo de sistemas embarcados orienta projetos que interagem com hardware.
+
+**Entregas possíveis:** código de um serviço ou programa, definição de endpoints, validações, organização de dados, testes e documentação de execução. Treinamento de modelos e operação de hardware dependem de dados, infraestrutura e dispositivos adequados.
+
+**Exemplo:** “Crie uma API de estoque em Python com cadastro, entrada e saída de produtos, validação de dados e testes.”
+
+**Módulos incorporados:** `mcp-builder`, `composition-patterns`, `python-pro`, `django-expert`, `fastapi-expert`, `javascript-pro`, `typescript-pro`, `nestjs-expert`, `csharp-developer`, `dotnet-core-expert`, `java-architect`, `spring-boot-engineer`, `php-pro`, `laravel-specialist`, `rails-expert`, `golang-pro`, `rust-engineer`, `cpp-pro`, `cli-developer`, `graphql-architect`, `websocket-engineer`, `rag-architect`, `ml-pipeline`, `fine-tuning-expert`, `embedded-systems`, `web-extension`.
+
+### Jogos
+
+Pode orientar desenvolvimento de jogos, organização de cenas, sistemas de interação e uso de motores. Os módulos incluem game-developer, game-engine, unity e figma-to-unity. A combinação depende do motor, da linguagem e do projeto existentes.
+
+Pode ajudar a definir o ciclo do jogo, estados, controles, interface, lógica de pontuação e organização dos recursos. O módulo de integração com Figma orienta a passagem de elementos de interface para o projeto compatível.
+
+**Entregas possíveis:** protótipo, scripts de mecânicas, interfaces e passos de teste. Criar arte, áudio e animações depende de recursos fornecidos ou de ferramentas conectadas. A presença desses guias não instala um motor de jogos.
+
+**Exemplo:** “Crie um protótipo de jogo educativo com perguntas, pontuação e tela de resultado; explique como abrir e testar no motor escolhido.”
+
+**Módulos incorporados:** `game-developer`, `unity`, `figma-to-unity`, `game-engine`.
+
+### Qualidade e manutenção
+
+Pode organizar o planejamento, investigar erros, revisar arquitetura e orientar verificações antes de considerar uma tarefa concluída. Os módulos abordam definição do problema, planos de implementação, execução por etapas, testes, depuração e revisão de código.
+
+Há guias de arquitetura, organização de monorepos, revisão de aplicações completas e testes de interfaces web. Esses módulos podem ser combinados com os de sites, apps, programas e jogos conforme a tarefa.
+
+**Entregas possíveis:** diagnóstico com evidências, plano de correção, alterações no código, testes e relatório do que foi verificado. A skill deve distinguir teste executado, análise do código e comportamento ainda não confirmado.
+
+**Exemplo:** “Investigue por que o login falha após atualizar a página, corrija a causa e execute as verificações relevantes.”
+
+**Módulos incorporados:** `webapp-testing`, `architecture-designer`, `fullstack-guardian`, `monorepo`, `brainstorming`, `writing-plans`, `executing-plans`, `test-driven-development`, `systematic-debugging`, `verification-before-completion`, `requesting-code-review`.
+
+### Escrita e marketing
+
+Nesta edição pública, essa área é um **catálogo de integrações**. Ela identifica habilidades de humanização, voz, tom, roteiros, legendas, carrosséis, posts, narrativas, pesquisa de público e planejamento de conteúdo. Para usar as instruções especializadas originais, a habilidade correspondente precisa estar instalada.
+
+O catálogo também inclui pesquisa de concorrentes, calendário, campanhas, objetivos, análise de métricas, reaproveitamento de conteúdo e estratégias para Instagram, Facebook, YouTube, TikTok, LinkedIn, Pinterest e outras redes.
+
+**Entregas possíveis com as dependências presentes:** revisão de texto, roteiro, proposta de posts, calendário, planejamento de campanha e análise de dados fornecidos. Pesquisa atual exige fontes; métricas exigem dados reais. Publicação e agendamento dependem de conectores e contas. Não promete viralização nem crescimento garantido.
+
+**Exemplo:** “Revise meu roteiro mantendo os fatos e minha maneira de falar. Confira a habilidade de humanização instalada e mostre a versão final.”
+
+**Consulte os registros desta área** na [distribuição por área](references/CAPABILITIES.md).
+
+### Mídia e animação
+
+Nesta edição pública, essa área também funciona por **integrações**. O catálogo identifica habilidades de imagens, edição, narração, música, legendas, cortes, análise de vídeos, animação e composição de cenas. Inclui registros de Remotion, anime e ferramentas de vídeo e design.
+
+Com as dependências presentes, pode coordenar briefing, personagens, referências, cenas, prompts, geração, montagem, legendas e exportação. Anime exige geração e continuidade de personagens; vídeos não são produzidos apenas pela presença de um guia. Os registros de Canva, Runway, Kling, Luma, PixVerse e outros serviços não fornecem acesso a eles.
+
+**Entregas possíveis:** roteiro visual e prompts com as ferramentas básicas; imagens, áudios, cenas animadas ou vídeo final quando houver ferramentas e recursos de execução disponíveis. Duração, resolução, áudio, créditos e exportação dependem do provedor.
+
+**Exemplo:** “Planeje um vídeo de anime de 60 segundos. Confira as ferramentas disponíveis, prepare as cenas e informe quais etapas consegue gerar e montar.”
+
+**Consulte os registros desta área** na [distribuição por área](references/CAPABILITIES.md).
+
+Os registros de apoio, como documentos, planilhas, biblioteca e gestão de plugins, aparecem separadamente no catálogo. Eles também exigem suas ferramentas originais.
+
+Para ver **cada registro distribuído por área**, consulte [CAPABILITIES.md](references/CAPABILITIES.md).
+
 ## O que vem no pacote
 
 - **115 módulos incorporados de desenvolvimento**, com guias e recursos disponíveis nas fontes originais.

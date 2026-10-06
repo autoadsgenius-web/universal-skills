@@ -1,0 +1,4 @@
+interface:
+  display_name: "Universal Skills"
+  short_description: "Apps, sites, vídeos e conteúdo em uma skill"
+  default_prompt: "Use $universal-skills para escolher os módulos e executar minha tarefa."

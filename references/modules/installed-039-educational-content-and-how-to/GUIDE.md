@@ -1,0 +1,13 @@
+# educational-content-and-how-to
+
+## Finalidade
+
+The teach-to-grow content type -- pick a genuinely useful topic, teach ONE thing completely, structure it as a clear lesson, keep it accurate, and route it to the right format. Use when someone wants to teach their audience, make a how-to / tutorial / step-by-step / explainer / myth-buster, build authority content, or earn saves. Uses the TEACH framework. Reads brand-profile + audience-research + content-pillars first. Feeds the format writers (carousel-writer, reels-script, tiktok-script, thread-writer, caption-writer), hook-writer, the design/image tools, and lead-magnets/social-selling-and-dm; WoopSocial publishes + schedules the series. Accuracy is non-negotiable: cite sources, stay within real expertise, YMYL care, never fabricate steps or stats; measure saves/sends, not likes. Distinct from carousel-writer (the format it pairs with), reels-script/tiktok-script/thread-writer (other formats), storytelling-and-narrative (narrative vs didactic), and content-pillars (which topics).
+
+## Dependência
+
+Este é um registro de integração. As instruções originais, ferramentas e contas não são incorporadas. Confira se a habilidade ou plugin `educational-content-and-how-to` está instalado no ambiente atual e leia suas instruções pela interface disponível. Se não estiver, indique essa dependência sem inventar um comando de instalação ou resultado.
+
+## Execução
+
+Identifique o resultado e os arquivos fornecidos; confira as ferramentas realmente disponíveis. Execute as etapas autorizadas usando o plugin original. Na ausência dele, entregue somente as partes que puder concluir com as ferramentas atuais e explique o que ficou pendente. Verifique o resultado antes de informar sucesso.

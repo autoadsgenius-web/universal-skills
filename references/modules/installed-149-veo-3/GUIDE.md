@@ -1,0 +1,13 @@
+# veo-3
+
+## Finalidade
+
+Use to write great prompts for Google Veo (Veo 3.1) to generate or animate video for social media — the video-prompt-craft mini-skill, the video counterpart to nano-banana. Run when the user wants a Veo / AI video prompt, a short video clip for a post (b-roll, product-in-motion, hook visual, spokesperson/UGC clip, ad), to animate a still image into video, or a vertical Reel/TikTok/Short clip. Reads brand-profile for brand style. Veo's standout is native synchronized audio in one pass, plus image-to-video and native 9:16 vertical. Teaches the prompt anatomy, audio prompting, the image-to-video pipeline, and the 8-second constraint + extension/stitching. Honest: iterate cheap then finalize, disclose AI video (SynthID watermark), never generate real identifiable people or copyrighted IP. This is the prompt-craft layer — the API/connection and the generate - upload to WoopSocial Media - attach flow live in tools/integrations/veo.md; the consuming pack is reels-script's veo-prompt-pack.
+
+## Dependência
+
+Este é um registro de integração. As instruções originais, ferramentas e contas não são incorporadas. Confira se a habilidade ou plugin `veo-3` está instalado no ambiente atual e leia suas instruções pela interface disponível. Se não estiver, indique essa dependência sem inventar um comando de instalação ou resultado.
+
+## Execução
+
+Identifique o resultado e os arquivos fornecidos; confira as ferramentas realmente disponíveis. Execute as etapas autorizadas usando o plugin original. Na ausência dele, entregue somente as partes que puder concluir com as ferramentas atuais e explique o que ficou pendente. Verifique o resultado antes de informar sucesso.
